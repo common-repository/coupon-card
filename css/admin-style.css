@@ -1,0 +1,125 @@
+/*
+=====================================================================
+							ADMIN STYLE
+=====================================================================
+*/
+
+.cc-wraper {
+	padding: 20px 0;
+}
+
+.cc-heading {
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.cc-form-title {
+	margin: 18px 0;
+}
+.cc-form {
+    width: 68%;
+    padding: 20px;
+    float: left;
+}
+
+.cc-body .cc-form form select,
+.cc-body .cc-form form input {
+	display: block;
+}
+.cc-radio span {
+	margin: 18px 0;
+}
+.cc-radio span,
+.cc-body .cc-form form input[type="radio"] {
+	display: inline-block;
+	font-weight: 500;
+	margin-left: 5px
+}
+
+.cc-coupon-box {
+	display: none;
+}
+
+#cc-btn-background {
+	margin-bottom: 10px;
+}
+#cc-publish {
+    margin-top: 25px;
+}
+
+.cc-donate {
+	background-image: url(../images/hearts.jpeg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+    width: 25%;
+    float: right;
+    margin-right: 20px;
+}
+
+.cc-opacity {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	padding: 20px 20px 32px;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.cc-don-title {	
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+}
+
+.cc-don-desc {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.cc-don-link {
+	padding: 8px 20px 8px 36px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #019cde;
+    border-radius: 3px;
+    background-image: url(../images/paypal.png);
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    background-size: 25px;
+}
+
+.cc-success p,
+.cc-error p {
+	font-size: 14px;
+}
+
+.cc-success,
+.cc-error {
+    padding: 10px 15px;
+    background: #7CB342;
+    margin-top: 15px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.cc-error {
+	background: #F44336;
+}
+
+.cc-no-border {
+	border: none;
+}
+
+.cc-list-img {
+	height: 74px;
+}
+
+.cc-type {
+	text-transform: capitalize;
+}
